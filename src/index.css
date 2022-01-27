@@ -1,13 +1,158 @@
 body {
-  margin: 0;
+  /* margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.landing-title{
+  font-size: 80px;
+  color: #5f5a6e;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: 2px 0 5px #3a057048;
+}
+
+.landing-text{
+  text-align: left;
+}
+
+#landing-pic {
+  height: 300px;
+  border-radius: 10%;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 700px;
+  text-align: left;
+  background-color: rgba(21, 22, 21, 0.95);
+  z-index: 1;
+  position:relative;
+  padding: 10px;
+
+
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(21, 22, 21, 0.95);
+  z-index: 1;
+  position:relative;
+  padding: 10px;
+
+
+}
+/* p {
+  margin-bottom: 20px;
+    color: #aeaeb1;
+    line-height: 1.6em;
+    
+    
+}  */
+
+.list{
+  list-style: none;
+}
+.list li{
+  display: inline;
+}
+
+.skill-image {
+  height: 40px;
+}
+
+.start-page{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding-top: 200px;
+}
+
+.wrapper2 {
+  background-color: #f5f5f5;
+  padding-bottom: 1em;
+  padding-top: 2.2em;
+  z-index: 1;
+
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.item2 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 100%;
+  width: 90%;
+  background-color: rgba(179, 184, 179, 0.93);
+  z-index: 1;
+  position:relative;
+  padding: 10px;
+
+
+
+}
+
+.icon {
+  height: 100px;
+  /* padding: 30px; */
+  margin: 50px;
+  
+
+}
+
+.aboutCard {
+  
+   box-sizing: border-box;
+   background-color: white;
+   height: 400px;
+   width: 300px;
+   border: 10px solid rgb(0, 255, 136);
+   margin: 10px;
+}
+
+/* @mixin other( $width, $color, $bgcolor ) {
+  box-shadow:
+    4*$width 0 $bgcolor, 
+    -4*$width 0 $bgcolor, 
+    0 (-4*$width) $bgcolor, 
+    0 4*$width $bgcolor,
+    $width 0 0 2*$width $bgcolor,
+    -$width 0 0 2*$width $bgcolor,
+    0 (-$width) 0 2*$width $bgcolor,
+    0 $width 0 2*$width $bgcolor,
+    5*$width 0 $color, 
+    -5*$width 0 $color,
+    0 (-5*$width) $color, 
+    0 5*$width $color,
+    0 0 0 3*$width $color,
+    0 2*$width 0 2*$width $color,
+    0 (-2*$width) 0 2*$width $color,
+    2*$width 0 0 2*$width $color,
+    (-2*$width) 0 0 2*$width $color;
+    margin: 5*$width auto;
+}
+.lvl1 {
+  @include other( 4px, orange, white );
+} */
+
