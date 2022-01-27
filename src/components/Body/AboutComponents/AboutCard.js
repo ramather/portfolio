@@ -8,17 +8,17 @@ const AboutCard = () => {
           <p className="rarity">Evolves from Charmeleon</p>
           <h1 className="name">Charizard</h1>
           <p className="health">150hp</p>
-          <img className="element-icon" src="./fire.png"></img>
+          <img alt="ywa" className="element-icon" src="./fire.png"></img>
         </section>
         <section className="character-img">
-          <img src="./charizard.png"></img>
+          <img alt="ywa" src="./charizard.png"></img>
         </section>
         <section className="character-meta">
           <p>Flame Pokemon. Length: 5'7", Weight 200lbs.</p>
         </section>
         <section className="character-ability">
           <span class="ability-cost">
-            <img src="./fire.png"></img>
+            <img alt="ywa" src="./fire.png"></img>
           </span>
           <span className="ability-description">
             <span className="ability-name">Fire Spin</span>
@@ -27,10 +27,10 @@ const AboutCard = () => {
         </section>
         <section className="character-ability">
           <span class="ability-cost">
-            <img className="element-icon"  src="./fire.png"></img>
-            <img className="element-icon"  src="./fire.png"></img>
-            <img className="element-icon"  src="./fire.png"></img>
-            <img className="element-icon"  src="./fire.png"></img>
+            <img  alt="ywa" className="element-icon"  src="./fire.png"></img>
+            <img alt="ywa" className="element-icon"  src="./fire.png"></img>
+            <img alt="ywa" className="element-icon"  src="./fire.png"></img>
+            <img alt="ywa" className="element-icon"  src="./fire.png"></img>
           </span>
           <span className="ability-description">
             <span className="ability-name">Blast Burn</span>
@@ -41,14 +41,14 @@ const AboutCard = () => {
         <section className="character-stats">
           <span className="character-stat">
             <p>weakness</p>
-            <img className="element-icon" src="./fire.png"></img>
+            <img alt="ywa" className="element-icon" src="./fire.png"></img>
           </span>
           <span className="character-stat">
             <p>resistence</p>
           </span>{" "}
           <span className="character-stat">
             <p>retreat cost</p>
-            <img className="element-icon"  src="./fire.png"></img>
+            <img alt="ywa" className="element-icon"  src="./fire.png"></img>
           </span>
         </section>
         <section className="character-description">

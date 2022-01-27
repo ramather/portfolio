@@ -3,6 +3,11 @@ import React from 'react';
 const PokemonCard = (props) => {
     console.log(props);
     console.log(props.pokemon.rarity)
+
+    // eslint-disable-next-line no-unused-vars
+    function displayDescription(description){
+      if(description !== "")return <p>{description}</p>
+    }
     
     return(
     <div className={props.pokemon.type}>
@@ -10,11 +15,11 @@ const PokemonCard = (props) => {
             <p className='rarity'>{props.pokemon.rarity}</p>
             <h1 className='name'>{props.pokemon.name}</h1>
             <p className='health'>{props.pokemon.health}</p>
-            <img className="element-icon" src={props.pokemon.icon}></img>
+            <img alt="ywa" className="element-icon" src={props.pokemon.icon}></img>
 
         </section>
         <section className="character-img">
-          <img src={props.pokemon.picture}></img>
+          <img alt="ywa" src={props.pokemon.picture}></img>
         </section>
         <section className="character-meta">
           <p>{props.pokemon.meta}</p>
@@ -23,7 +28,7 @@ const PokemonCard = (props) => {
           <section className='character-ability'>
             <span class="ability-cost">
               {(ability.icons).map(icon =>(
-                <img  className="element-icon"  src={icon}></img>
+                <img alt="ywa"  className="element-icon"  src={icon}></img>
               ))}
             </span>
             <span className="ability-description">
@@ -37,14 +42,14 @@ const PokemonCard = (props) => {
        <section className="character-stats">
           <span className="character-stat">
             <p>weakness</p>
-            <img className="element-icon" src={props.pokemon.icon}></img>
+            <img alt="ywa" className="element-icon" src={props.pokemon.icon}></img>
           </span>
           <span className="character-stat">
             <p>resistence</p>
           </span>{" "}
           <span className="character-stat">
             <p>retreat cost</p>
-            <img className="element-icon"  src="./fire.png"></img>
+            <img alt="ywa" className="element-icon"  src="./fire.png"></img>
           </span>
           </section>
           <section className="character-description">
@@ -54,9 +59,7 @@ const PokemonCard = (props) => {
 
     </div>
     )
-    function displayDescription(description){
-      if(description !== "")return <p>{description}</p>
-    }
+    
 
 }
 
