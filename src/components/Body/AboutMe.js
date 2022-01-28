@@ -56,7 +56,7 @@ const AboutMe = () => {
       type: "water",
       health: "50HP",
       icon: "./fire.png",
-      picture: "./horsea.jpg",
+      picture: "./horsea1.jpg",
       meta: `Dragon Pokemon. Length: 1'04", Weight 17.6lbs.`,
       abilities: [
         {
