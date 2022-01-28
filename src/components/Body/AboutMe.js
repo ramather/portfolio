@@ -25,6 +25,7 @@ const AboutMe = () => {
           icons: ["./fire.png", "./fire.png", "./fire.png", "./fire.png"],
         },
       ],
+      cost: "./normal.png",
       weakness: "./water.png",
       description:
         "Spits fire that is hot enough to melt boulders. known to unintentionally cause forest fires.",
