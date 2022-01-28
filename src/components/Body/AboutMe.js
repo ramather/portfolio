@@ -36,7 +36,7 @@ const AboutMe = () => {
       health: "70HP",
       icon: "./normal.png",
       picture: "./eevee.jpg",
-      meta: `Flame Pokemon. Length: 5'7", Weight 200lbs.`,
+      meta: `Evolution Pokemon. Length: 1', Weight 14lbs.`,
       abilities: [
         { name: "Gnaw", description: "", damage: "10", icons: ["./normal.png"] },
         {
