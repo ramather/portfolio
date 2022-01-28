@@ -44,11 +44,11 @@ code {
 }
 
 .about {
-  justify-content: center;
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  width: 100%;
+  width: 70%;
   text-align: left;
   background-color: rgba(21, 22, 21, 0.95);
   z-index: 1;
