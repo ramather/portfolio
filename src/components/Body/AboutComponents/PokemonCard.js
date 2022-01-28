@@ -15,11 +15,11 @@ const PokemonCard = (props) => {
             <p className='rarity'>{props.pokemon.rarity}</p>
             <h1 className='name'>{props.pokemon.name}</h1>
             <p className='health'>{props.pokemon.health}</p>
-            <img alt="./normal.png" className="element-icon" src={props.pokemon.icon}></img>
+            <img alt="" className="element-icon" src={props.pokemon.icon}></img>
 
         </section>
         <section className="character-img">
-          <img alt="./normal.png" src={props.pokemon.picture}></img>
+          <img alt="" src={props.pokemon.picture}></img>
         </section>
         <section className="character-meta">
           <p>{props.pokemon.meta}</p>
@@ -28,7 +28,7 @@ const PokemonCard = (props) => {
           <section className='character-ability'>
             <span class="ability-cost">
               {(ability.icons).map(icon =>(
-                <img alt="./normal.png"  className="element-icon"  src={icon}></img>
+                <img alt=""  className="element-icon"  src={icon}></img>
               ))}
             </span>
             <span className="ability-description">
@@ -42,14 +42,14 @@ const PokemonCard = (props) => {
        <section className="character-stats">
           <span className="character-stat">
             <p>weakness</p>
-            <img alt="./normal.png" className="element-icon" src={props.pokemon.icon}></img>
+            <img alt="" className="element-icon" src={props.pokemon.icon}></img>
           </span>
           <span className="character-stat">
             <p>resistence</p>
           </span>{" "}
           <span className="character-stat">
             <p>retreat cost</p>
-            <img alt="./normal.png" className="element-icon"  src="./fire.png"></img>
+            <img alt="" className="element-icon"  src="./fire.png"></img>
           </span>
           </section>
           <section className="character-description">
