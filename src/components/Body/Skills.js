@@ -6,42 +6,42 @@ const Skills = () => {
       <p>Front End</p>
       <ul className="list">
         <li>
-          <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
         </li>
         <li>
-          <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+          <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
         </li>
         <li>
-          <img  alt=""className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+          <img  alt="./normal.png"className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
         </li>
         <li>
-          <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+          <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
         </li>
         <li>
-          <img alt=""  className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
+          <img alt="./normal.png"  className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
         </li>
       </ul>
       <p>Back End</p>
       <ul className="list">
         <li>
-          <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+          <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
         </li>
         <li>
-        <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
+        <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" />
 
         </li>
       </ul>
       <p>Other</p>
       <ul className="list">
         <li>
-          <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+          <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
         </li>
         <li>
-        <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+        <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
 
         </li>
         <li>
-        <img alt="" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original-wordmark.svg" />
+        <img alt="./normal.png" className="skill-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original-wordmark.svg" />
 
         </li>
       </ul>
