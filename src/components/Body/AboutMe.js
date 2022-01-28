@@ -75,6 +75,31 @@ const AboutMe = () => {
       weaknessIcon: "",
       description:
         "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+    },{
+      rarity: "Basic",
+      name: "pikachu",
+      type: "electric",
+      health: "50HP",
+      icon: "./fire.png",
+      picture: "./pikachu.jpg",
+      meta: `Dragon Pokemon. Length: 1'04", Weight 17.6lbs.`,
+      abilities: [
+        {
+          name: "Smokescreen",
+          description: "Spray smoke on opponent",
+          damage: "10",
+          icons: ["./fire.png"],
+        },
+        {
+          name: "Reverse Thrust",
+          description: "Switch Horsea with 1 of your benched Pokemon",
+          damage: "10",
+          icons: ["./fire.png"],
+        },
+      ],
+      weaknessIcon: "",
+      description:
+        "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
     },
   ];
 
