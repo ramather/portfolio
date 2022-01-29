@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px) {
+    .fire {width: 95%;}
+    .electric {width: 95%;}
+    .water {width: 95%;}
+    .normal {width: 95%;}
+   
+  }
+
 .pokemon-card{
     padding: 0;
     margin:0;
